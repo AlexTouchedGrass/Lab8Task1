@@ -11,6 +11,9 @@ public class Lab8Task3 {
         int intDay = 0;
         int intMonth = 0;
         int intYear = 0;
+        int intHour = 0;
+        int intSecond = 0;
+        int intMinute = 0;
         int max = 0;
 
         /* The Months of the year arranged from least to most.
@@ -43,11 +46,17 @@ public class Lab8Task3 {
 
 
         int getDay = InputHelper.getRangedInt(scan, "Please enter your day of birth (1-"+max + ")",1,max);
+        int getHour = InputHelper.getRangedInt(scan, "Please enter your hour of birth (1-24)",1,24);
         int getMinute = InputHelper.getRangedInt(scan, "Please enter your minutes of birth (1-60)",1,60);
         int getSecond = InputHelper.getRangedInt(scan, "Please enter your seconds of birth (1-60)",1,60);
 
 
-
+        System.out.printf("Year:%10s",getYear);
+        System.out.printf("\nMonth:%6s",getMonth);
+        System.out.printf("\nDay:%8s",getDay);
+        System.out.printf("\nHour:%7s",getHour);
+        System.out.printf("\nMinute:%5s",getMinute);
+        System.out.printf("\nSecond:%5s",getSecond);
 
 
 
