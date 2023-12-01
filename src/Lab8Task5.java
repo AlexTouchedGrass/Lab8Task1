@@ -12,7 +12,7 @@ public class Lab8Task5 {
         String mNum = InputHelper.getRegExString(scan, "Please enter your M Number","(M|m)\\d{5}");
         System.out.println("Your M Number: " +mNum+".");
 
-        String menuWHAT = InputHelper.getRegExString(scan," Menu: \nO - Open  \nS - Save  \nV - View  \nQ - Quit","\\[OoSsVvQq]");
+        String menuWHAT = InputHelper.getRegExString(scan," Menu: \nO - Open  \nS - Save  \nV - View  \nQ - Quit","[OoSsVvQq]");
         System.out.println("You Choose: "+ menuWHAT);
 
 
