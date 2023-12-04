@@ -41,6 +41,9 @@ public class InputHelper {
         String yesOrNo = getYNConfirm(scan, "Would you like to continue? Yes to continue, no to stop. ( Y or N also works)");
         System.out.println("You answered " + yesOrNo + ".");
 
+        String prettyHeader = getPrettyHeader(scan,"Enter the message you would like to have converted to a header.");
+        System.out.println(input);
+
     }
 
     //GetInt
@@ -173,6 +176,7 @@ public class InputHelper {
         return input;
     }
 
+    //YNCONFIRM is self explanatory
     public static String getYNConfirm(Scanner in, String prompt){
         boolean done = false;
         String input;
@@ -192,6 +196,15 @@ public class InputHelper {
             //in.nextLine(); //not needed rn.
         }while(!done);
         return input;
+    }
+
+    //Makes a 'purty header.
+    public static String getPrettyHeader(Scanner in, String msg){
+        String input;
+
+        for (int j = 0, j < 60,j++) {
+
+        }
     }
 
 }
