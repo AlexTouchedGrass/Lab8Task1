@@ -44,9 +44,7 @@ public class InputHelper {
         System.out.println("You answered " + yesOrNo + ".");
         */
         //Creates a pretty header
-        String prettyHeader = getPrettyHeader(scan,"Enter the message you would like to have converted to a header.");
-        System.out.println(prettyHeader);
-
+        getPrettyHeader("Hello Mr. George");
     }
 
     //GetInt
@@ -202,18 +200,21 @@ public class InputHelper {
     }
 
     //Makes a 'purty header.
-    public static void getPrettyHeader(Scanner in, String msg) {
+    public static void getPrettyHeader( String msg) {
+
+
         boolean done = false;
-        String input;
-        String ast = "*";
 
 
-        do {
             for (int i = 0; i != 60; i++) {
-                System.out.println(ast);
+                System.out.print("*");
             }
+        System.out.println();
 
-        } while (!done);
-        return input;
+        System.out.println();
+        for (int i = 0; i != 60; i++) {
+            System.out.print("*");
+        }
+
     }
 }

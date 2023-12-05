@@ -4,6 +4,7 @@
     <list default="true" id="b5925ff8-90e2-411a-b566-4cdd365fbcc0" name="Changes" comment="Nice-U">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InputHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab8Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab8Task6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +41,9 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/622237/IdeaProjects/Lab8Task1&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.InputHelper">
+  <component name="RunManager" selected="Application.Lab8Task6">
     <configuration name="InputHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InputHelper" />
-      <module name="Lab8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab8Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab8Task2" />
       <module name="Lab8" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,13 +70,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lab8Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab8Task6" />
+      <module name="Lab8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab8Task6" />
         <item itemvalue="Application.InputHelper" />
         <item itemvalue="Application.Lab8Task5" />
         <item itemvalue="Application.Lab8Task4" />
         <item itemvalue="Application.Lab8Task3" />
-        <item itemvalue="Application.Lab8Task2" />
       </list>
     </recent_temporary>
   </component>
