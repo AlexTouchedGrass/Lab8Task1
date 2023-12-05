@@ -5,6 +5,8 @@ public class InputHelper {
         //Test Methods
         Scanner scan = new Scanner(System.in);
 
+
+        /*
         //Size Checker
         int iSize = getInt(scan, "Please enter your size (round to nearest whole number)."); //Results are confidential.
         System.out.println("Your size is " + iSize + ".");
@@ -40,9 +42,10 @@ public class InputHelper {
         //Y or N Confirm
         String yesOrNo = getYNConfirm(scan, "Would you like to continue? Yes to continue, no to stop. ( Y or N also works)");
         System.out.println("You answered " + yesOrNo + ".");
-
+        */
+        //Creates a pretty header
         String prettyHeader = getPrettyHeader(scan,"Enter the message you would like to have converted to a header.");
-        System.out.println(input);
+        System.out.println(prettyHeader);
 
     }
 
@@ -199,12 +202,18 @@ public class InputHelper {
     }
 
     //Makes a 'purty header.
-    public static String getPrettyHeader(Scanner in, String msg){
+    public static void getPrettyHeader(Scanner in, String msg) {
+        boolean done = false;
         String input;
+        String ast = "*";
 
-        for (int j = 0, j < 60,j++) {
 
-        }
+        do {
+            for (int i = 0; i != 60; i++) {
+                System.out.println(ast);
+            }
+
+        } while (!done);
+        return input;
     }
-
 }
