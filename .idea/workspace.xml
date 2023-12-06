@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5925ff8-90e2-411a-b566-4cdd365fbcc0" name="Changes" comment="Nice-U">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab8Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab8Task6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

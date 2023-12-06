@@ -5,15 +5,12 @@ public class Lab8Task6 {
         Scanner scan = new Scanner(System.in);
         String msg = "";
         boolean done = false;
-        String leftSpaces = "";
-        String rightSpaces = "";
 
         do{
             System.out.println("Please enter a message to be centered.");
             msg = scan.nextLine();
 
             if(msg.length()<54){
-                System.out.println("Good Length.");
                 done = true;
             }
         } while(!done);
@@ -21,32 +18,28 @@ public class Lab8Task6 {
         getPrettyHeader(msg);
     }
 
-
     public static void getPrettyHeader(String msg) {
-        boolean done = false;
         int leftSpaces = ((54-msg.length())/2);
         int rightSpaces = (54-leftSpaces-msg.length());
-        int a = 0;
-        for (int i = 0; i < 61; i++) {
-            System.out.print("*");
-        }
-        System.out.println();
-        for (int m = 0; m < 61;m++) {
-            if (m<3||m>57) {
-                System.out.print("*");
-            }else if ( m > leftSpaces + 3 && m< 57- leftSpaces){
-                System.out.print(msg.substring(a, a+1));
-                a++;
-            } else{
-                System.out.print(" ");
-            }
-        }
 
+        printCharacter("*", 60, true);
+
+        printCharacter("*",3, false);
+        printCharacter(" ", leftSpaces, false);
         System.out.print(msg);
+        printCharacter(" ", rightSpaces, false);
+        printCharacter("*", 3, true);
 
-        System.out.println();
-        for (int i = 0; i < 61; i++) {
-            System.out.print("*");
+        printCharacter("*", 60, false);
+    }
+
+    public static void printCharacter(String character, int amount, boolean newLine) {
+        for (int i = 0; i < amount; i++) {
+            System.out.print(character);
+        }
+
+        if (newLine) {
+            System.out.println();
         }
     }
 }
